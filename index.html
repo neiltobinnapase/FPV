@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title> RoboCopters Blue Team - FPV Display </title>
+	<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+
+<body>
+<div id="wrapper">
+	<header>
+		<h1> RoboCopters Blue Team - FPV Display </h1>
+	</header>
+	
+	<main>
+		<!-- Image will be placed here, give class/id so javascript can refer to it -->
+		<div id="display">
+
+		<canvas id="canvas" style="width:97.5%;height:55%; padding:10px" alt="Canvas">
+		<!--	<image src="image/temp.jpg" id="image" style="width:97.5%;height:75%;padding:10px;" alt="Image"> -->
+		
+		</div>
+
+		
+		
+		<!-- Information from telemetry/other info will be placed here, give class/id so javascript can refer to it -->
+		
+		<div id="tabledisplay">
+		<table border="1">
+			<thead>
+				<tr>
+					<th colspan="2"> Information </th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td> Mode </td>
+					<td id="td0"> temp </td>
+				</tr>
+				<tr>
+					<td> Altitude (ft) </td>
+					<td id="td1"> temp </td>
+				</tr>
+				<tr>
+					<td> Speed (m/s) </td>
+					<td id="td2"> temp </td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+		
+	</main>
+
+</div>
+
+<script src="update.js"> </script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+/* styles.css file */
+/* used to format the layout of index.html */
+
+body {
+	font-family: Verdana, Arial, sans-serif;
+	background-color: #90A4AE;
+}
+
+header {
+	text-align: center;
+	color: #37474F;
+}
+
+#wrapper {
+	margin-left:auto;
+	margin-right: auto;
+	width: 80%;
+	height: 80%;
+}
+
+#display {
+ 	width: 75%;
+	height: 45%; 
+	
+	border: 5px solid #37474F;
+	background-color: #ECEFF1;
+}
+
+#tabledisplay {
+	position: absolute;
+	top: 12%;
+	right: 15%;
+}
+
+table {
+	border: 2px solid #37474F;
+	border-spacing: 0;
+	
+	background-color: #ECEFF1;
+	margin-left: 20px;
+}
+
+thead {
+	background-color: #37474F;
+	color: #ECEFF1;
+	text-align: center;
+}
+
+td, th {
+	text-align: center;
+	padding: 12px;
+}
