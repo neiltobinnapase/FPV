@@ -20,7 +20,7 @@ header {
 
 #display {
  	width: 75%;
-	height: 45%; 
+	height: 55%; 
 	
 	border: 5px solid #37474F;
 	background-color: #ECEFF1;
@@ -28,8 +28,8 @@ header {
 
 #tabledisplay {
 	position: absolute;
-	top: 12%;
-	right: 15%;
+	top: 90px;
+	right: 200px;
 }
 
 table {
@@ -38,6 +38,8 @@ table {
 	
 	background-color: #ECEFF1;
 	margin-left: 20px;
+	
+	width: 230px;
 }
 
 thead {
